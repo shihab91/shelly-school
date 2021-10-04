@@ -1,9 +1,11 @@
 /* Font from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .App {
+  user-select: none;
   text-align: center;
   font-family: "Poppins", sans-serif;
   background-color: #f2f7fdc5;
+  scroll-behavior: smooth;
 }
 
 .App-logo {

@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img from '../../images/CodePen-404-Page.gif';
 const NotFound = () => {
     return (
         <div>
-            <img src={img} alt="" />
+            <Link to='/home'>
+                <img src={img} alt="" />
+            </Link>
         </div>
     );
 };
