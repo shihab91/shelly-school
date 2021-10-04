@@ -1,6 +1,6 @@
 # Shelly school
 
-This project was bootstrapped with [Create React App](https://fervent-fermat-296333.netlify.app/home).
+This project was bootstrapped with [Create React App](https://shelly-school.netlify.app/).
 
 ## Used Library and Frameworks
 
