@@ -1,0 +1,36 @@
+.text-container {
+  margin: 50px 0;
+  text-align: center;
+}
+.text-container h1 {
+  width: fit-content;
+}
+.text-container h1 span {
+  color: #f37335;
+  border-bottom: 2px solid #f37335;
+}
+
+.course-card {
+  text-align: left;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.course-img {
+  border-bottom: 4px solid rgb(255, 144, 125);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.course-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.course-time {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.course-trainer {
+  font-size: 17px;
+}

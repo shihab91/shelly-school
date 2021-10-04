@@ -8,10 +8,10 @@
   color: rgb(255, 153, 135) !important;
   transition: 0.4s;
 }
-.logo {
+.header-logo {
   width: 90%;
   cursor: pointer;
-  padding: 0;
+  padding: 0 !important;
 }
 .icons {
   font-size: 25px;

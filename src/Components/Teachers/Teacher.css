@@ -1,0 +1,28 @@
+.container h1 {
+  margin: 20px 0 40px 0;
+  width: fit-content;
+}
+.container h1 span {
+  color: #f37335;
+  border-bottom: 2px solid #f37335;
+}
+.teacher-card {
+  border: none;
+  background: transparent;
+}
+
+.card-img {
+  border-radius: 24px;
+}
+.teacher-card-text {
+  text-align: left;
+  margin-left: 16px;
+  /* font-size: 18px; */
+}
+.teacher-card-text p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.teacher-card-text small {
+  color: #155799;
+}

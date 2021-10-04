@@ -3,14 +3,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   border-top: 1px solid rgba(219, 219, 219, 0.712);
   padding-bottom: 100px;
+  margin-top: 50px;
 }
 .logo {
   text-align: left;
-  padding-top: 35px;
+  padding-top: 35px !important;
   cursor: context-menu;
 }
 .logo img {
-  padding: 10px 0;
   width: 170px;
 }
 .logo p {

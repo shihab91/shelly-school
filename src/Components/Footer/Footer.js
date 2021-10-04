@@ -4,7 +4,6 @@ import img from '../../images/logo.png'
 import './Footer.css'
 const Footer = () => {
     return (
-
         <div className="container footer">
             <div className="logo d-flex flex-column">
                 <img src={img} alt="" />
