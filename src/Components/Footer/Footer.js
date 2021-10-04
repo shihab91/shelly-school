@@ -24,7 +24,6 @@ const Footer = () => {
                     <NavLink to="/">Python tutorials</NavLink>
                     <NavLink to="/">MERN stack web dev</NavLink>
                 </div>
-
             </div>
             <div>
                 <h6 className="text-center pb-5">© Copyrights 2020 Shelly All rights reserved</h6>
