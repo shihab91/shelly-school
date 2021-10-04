@@ -1,5 +1,9 @@
+/* Font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 .App {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f7fdc5;
 }
 
 .App-logo {

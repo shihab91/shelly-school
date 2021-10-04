@@ -1,0 +1,25 @@
+.navMenu .navItems {
+  font-weight: 500;
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+.navMenu .navItems:hover {
+  color: rgb(255, 153, 135) !important;
+  transition: 0.4s;
+}
+.logo {
+  width: 90%;
+  cursor: pointer;
+  padding: 0;
+}
+.icons {
+  font-size: 25px;
+  padding: 15px;
+  color: #1260a0 !important;
+  transition: 0.3s;
+}
+.icons:hover {
+  transform: scale(1.25);
+  color: rgb(255, 74, 42) !important;
+}

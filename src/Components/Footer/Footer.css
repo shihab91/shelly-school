@@ -1,0 +1,40 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid rgba(219, 219, 219, 0.712);
+  padding-bottom: 100px;
+}
+.logo {
+  text-align: left;
+  padding-top: 35px;
+  cursor: context-menu;
+}
+.logo img {
+  padding: 10px 0;
+  width: 170px;
+}
+.logo p {
+  padding-top: 15px;
+  font-size: 15px;
+  color: gray;
+}
+.quick-links {
+  padding-top: 35px;
+  text-align: left;
+}
+.quick-links p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(92, 92, 92);
+}
+.quick-links .nav-link {
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(92, 92, 92);
+  width: fit-content;
+}
+.quick-links .nav-link:hover {
+  transition: 0.4s;
+  transform: translateX(8px);
+  color: rgb(255, 74, 42) !important;
+}
