@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Course.css'
 const Courses = () => {
 
@@ -24,14 +25,16 @@ const Courses = () => {
                                     <Card.Title className="course-name">{course.name}</Card.Title>
                                     <Card.Title className="course-time">{course.time}</Card.Title>
                                     <Card.Title className="course-trainer">Tutor : {course.trainer}</Card.Title>
-
+                                    <i class="fas fa-shopping-cart cart-icon"></i>
                                 </Card.Body>
                             </Card>
                         </Col>
                     )
                 }
             </Row>
-
+            <Link to="/courses">
+                <button className="border rounded-pill mt-5 view-all-btn">view all<i className="fas ms-2 fs-4 fa-arrow-alt-circle-right "></i></button>
+            </Link>
         </div>
     );
 };

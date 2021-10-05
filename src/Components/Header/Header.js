@@ -11,15 +11,15 @@ const Header = () => {
 
                 <Navbar.Brand><img className="header-logo" src={img} alt="" /></Navbar.Brand>
                 <Nav className="me-auto ms-4 navMenu">
-                    <NavLink className="mx-4  navItems" to="/home">Home</NavLink>
-                    <NavLink className="mx-4  navItems" to="/teachers">Teachers</NavLink>
-                    <NavLink className="mx-4  navItems" to="/courses">Courses</NavLink>
-                    <NavLink className="mx-4  navItems" to="/about">About us</NavLink>
+                    <NavLink className="mx-2  navItems" to="/home">Home</NavLink>
+                    <NavLink className="mx-2  navItems" to="/teachers">Teachers</NavLink>
+                    <NavLink className="mx-2  navItems" to="/courses">Courses</NavLink>
+                    <NavLink className="mx-2  navItems" to="/about">About us</NavLink>
                 </Nav>
                 <Nav>
-                    <NavLink to="/"><i class="fab icons fa-facebook"></i></NavLink>
-                    <NavLink to="/"><i class="fab icons fa-instagram"></i></NavLink>
-                    <NavLink to="/"><i class="fab icons fa-linkedin"></i></NavLink>
+                    <NavLink to="/"><i className="fab icons fa-facebook"></i></NavLink>
+                    <NavLink to="/"><i className="fab icons fa-instagram"></i></NavLink>
+                    <NavLink to="/"><i className="fab icons fa-linkedin"></i></NavLink>
                 </Nav>
             </Navbar>
             <hr />

@@ -14,6 +14,7 @@
   text-align: left;
   border-radius: 15px;
   cursor: pointer;
+  position: relative;
 }
 .course-img {
   border-bottom: 4px solid rgb(255, 144, 125);
@@ -33,4 +34,24 @@
 }
 .course-trainer {
   font-size: 17px;
+}
+.cart-icon {
+  position: absolute;
+  padding: 10px;
+  color: white;
+  background-color: #f37335;
+  font-size: 20px;
+  border-radius: 50%;
+  bottom: 165px;
+  right: 25 px;
+}
+.view-all-btn {
+  padding: 6px 35px;
+  background-color: #1260a0;
+  font-size: 20px;
+  color: white;
+  transition: 0.4s;
+}
+.view-all-btn:hover {
+  background-color: #f37335;
 }

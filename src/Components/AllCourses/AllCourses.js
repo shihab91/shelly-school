@@ -23,7 +23,7 @@ const AllCourses = () => {
                                     <Card.Title className="course-name">{course.name}</Card.Title>
                                     <Card.Title className="course-time">{course.time}</Card.Title>
                                     <Card.Title className="course-trainer">Tutor : {course.trainer}</Card.Title>
-
+                                    <i class="fas fa-shopping-cart cart-icon"></i>
                                 </Card.Body>
                             </Card>
                         </Col>
