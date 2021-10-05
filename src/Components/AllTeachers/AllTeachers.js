@@ -1,18 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Card, Col, NavLink, Row } from 'react-bootstrap';
+import useTeachers from '../../Hooks/useTeachers';
 const AllTeachers = () => {
-    const [AllTeachers, setAllTeachers] = useState([]);
-    useEffect(() => {
-        fetch('./Teachers.json')
-            .then(res => res.json())
-            .then(data => setAllTeachers(data))
-    }, [])
+    const [teachers] = useTeachers();
     return (
         <div className="container">
             <h1>Check out our best <span>Teachers</span></h1>
             <Row xs={2} md={4} className="g-4">
                 {
-                    AllTeachers.map((teacher) =>
+                    teachers.map((teacher) =>
                         <Col>
                             <Card className="teacher-card">
                                 <Card.Img className="card-img" variant="top" src={teacher.img} />

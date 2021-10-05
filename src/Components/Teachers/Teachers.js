@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Card, Col, NavLink, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useTeachers from '../../Hooks/useTeachers';
 import './Teacher.css'
 const Teachers = () => {
-    const [teachers, setTeachers] = useState([]);
-    useEffect(() => {
-        fetch('./Teachers.json')
-            .then(res => res.json())
-            .then(data => setTeachers(data))
-    }, [])
+    const [teachers] = useTeachers();
     return (
         <div className="container mt-5">
             <h1>Check out our best <span>Teachers</span></h1>

@@ -1,7 +1,8 @@
 import React from 'react';
-import Hero from '../../HeroPart/Hero';
+
 import Courses from '../Courses/Courses';
-import Header from '../Header/Header';
+import Hero from '../HeroPart/Hero';
+
 import Teachers from '../Teachers/Teachers';
 
 

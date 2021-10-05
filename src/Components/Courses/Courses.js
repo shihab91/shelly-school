@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Course.css'
+import useCourse from '../../Hooks/useCourse';
 const Courses = () => {
 
-    const [courses, setCourses] = useState([]);
-    useEffect(() => {
-        fetch('./Course.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+    const [courses] = useCourse()
     return (
         <div className="container">
             <div className="text-container">

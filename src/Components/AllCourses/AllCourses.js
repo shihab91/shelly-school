@@ -1,13 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
-
+import useCourse from '../../Hooks/useCourse';
 const AllCourses = () => {
-    const [AllCourses, setAllCourses] = useState([]);
-    useEffect(() => {
-        fetch('./Course.json')
-            .then(res => res.json())
-            .then(data => setAllCourses(data))
-    }, [])
+    const [courses] = useCourse()
     return (
         <div className="container">
             <div className="text-container">
@@ -15,7 +10,7 @@ const AllCourses = () => {
             </div>
             <Row xs={2} md={4} className="g-4">
                 {
-                    AllCourses.map(course =>
+                    courses.map(course =>
                         <Col>
                             <Card className="course-card" style={{ width: '270px', height: "362px", display: "inline-block" }}>
                                 <Card.Img className="course-img" style={{ width: '270px', height: "180px" }} variant="top" src={course.img} />
