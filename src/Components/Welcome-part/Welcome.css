@@ -1,0 +1,40 @@
+.welcome {
+  text-align: center;
+}
+.welcome h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  color: #2b2b2b;
+}
+.welcome h2 span {
+  color: #f37335;
+}
+.welcome p {
+  max-width: 430px;
+  font-size: 15px;
+  color: #575757;
+  margin: 0 auto;
+}
+.welcome-card {
+  box-shadow: 0 0 10px rgb(21 87 153 / 8%);
+  padding: 15px;
+  position: relative;
+  border-radius: 8px;
+}
+.info {
+  padding: 0 8px 0 0;
+  margin-top: 8px;
+  position: absolute;
+  bottom: 20px;
+}
+.title {
+  font-size: 18px;
+}
+.info > .title,
+p {
+  text-align: left;
+}
+.info p {
+  font-size: 13px;
+}

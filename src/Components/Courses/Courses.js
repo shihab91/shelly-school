@@ -3,8 +3,13 @@ import { Card, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Course.css'
 import useCourse from '../../Hooks/useCourse';
+import Tilt from "react-vanilla-tilt";
 const Courses = () => {
-
+    /*     const options = {
+            max: 30,
+            scale: 1.0,
+            speed: 1000
+        }; */
     const [courses] = useCourse()
     return (
         <div className="container">
@@ -14,8 +19,8 @@ const Courses = () => {
             <Row xs={2} md={4} className="g-4">
                 {
                     courses.slice(0, 4).map(course =>
-                        <Col>
-                            <Card className="course-card" style={{ width: '270px', height: "362px", display: "inline-block" }}>
+                        <Col >
+                            <Card className="course-card tilt" style={{ width: '270px', height: "362px", display: "inline-block" }}>
                                 <Card.Img className="course-img" style={{ width: '270px', height: "180px" }} variant="top" src={course.img} />
                                 <Card.Body>
                                     <Card.Title className="course-name">{course.name}</Card.Title>
@@ -25,6 +30,7 @@ const Courses = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
+
                     )
                 }
             </Row>
