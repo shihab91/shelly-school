@@ -8,7 +8,7 @@ const AllCourses = () => {
             <div className="text-container">
                 <h1>Our best <span>courses</span></h1>
             </div>
-            <Row xs={2} md={4} className="g-4">
+            <Row xs={1} sm={2} lg={4} className="g-4">
                 {
                     courses.map(course =>
                         <Col>

@@ -19,9 +19,9 @@ const Header = () => {
                             <NavLink className="mx-2  navItems" to="/about">About us</NavLink>
                         </Nav>
                         <Nav className="d-flex flex-row justify-content-center">
-                            <NavLink to="/"><i className="fab icons fa-facebook"></i></NavLink>
-                            <NavLink to="/"><i className="fab icons fa-instagram"></i></NavLink>
-                            <NavLink to="/"><i className="fab icons fa-linkedin"></i></NavLink>
+                            <a target="blank" href="https://www.facebook.com/mdshihab.shumon.3"><i className="fab icons fa-facebook"></i></a>
+                            <a target="blank" href="https://www.instagram.com/shihabshumon9/"><i className="fab icons fa-instagram"></i></a>
+                            <a target="blank" href="https://www.linkedin.com/in/shihab-shihab-5a8202216/"> <i className="fab icons fa-linkedin"></i></a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

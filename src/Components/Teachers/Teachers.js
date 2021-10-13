@@ -8,7 +8,7 @@ const Teachers = () => {
     return (
         <div className="container mt-5">
             <h1>Check out our best <span>Teachers</span></h1>
-            <Row xs={2} md={4} className="g-4">
+            <Row xs={1} sm={2} lg={4} className="g-4">
                 {
                     teachers.slice(0, 4).map((teacher) =>
                         <Col>

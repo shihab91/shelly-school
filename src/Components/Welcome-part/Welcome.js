@@ -13,10 +13,10 @@ const Welcome = () => {
             <h2>Welcome to <span>Shelly</span></h2>
             <p>Nunc consectetur ex nunc, id porttitor leo semper eget. Vivamus interdum, mauris quis cursus sodales, urn
             </p>
-            <Row xs={2} md={4} className="g-4">
+            <Row xs={1} sm={2} lg={4} className="g-4  ">
                 {
                     cards.map(card =>
-                        <Col >
+                        <Col className="d-flex justify-content-center" >
                             <Card className="mt-5 border-0 welcome-card" style={{ width: '262px', height: '166px' }}>
                                 <Card.Img src={card.img} style={{ width: '50px' }}></Card.Img>
                                 <Card.Body className='info'>
